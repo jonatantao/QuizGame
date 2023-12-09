@@ -5,8 +5,8 @@ using UnityEngine.InputSystem;
 
 public class HandsAnimation : MonoBehaviour
 {
-    [SerializedField] private InputActionReference gripReference;
-    [SerializedField] private Animator handAnimator;
+    [SerializeField] private InputActionReference gripReference;
+    [SerializeField] private Animator handAnimator;
     
     // Update is called once per frame
     void Update()

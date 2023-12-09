@@ -787,6 +787,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 774bb4f788fa745439135397fae784f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gripReference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  handAnimator: {fileID: 2148049906958848538}
 --- !u!1 &6048351462085208520
 GameObject:
   m_ObjectHideFlags: 0
