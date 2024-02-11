@@ -6,9 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/QuizGame.unity
+    guid: e810208f9be44ae4c9f235ca4d3752dd
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 18dbdc25e042fcf48bd8e2c739e57885,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 812d15b25109fce40a58a6e99c6842df,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1882584e3b0f47a468f2e9a1ed7c2bcc,

@@ -8,7 +8,7 @@ public class DummyTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Weapon"))
         {
             foreach(GameObject dummies in targetDummies)
             {
